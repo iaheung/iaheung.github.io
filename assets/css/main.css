@@ -2653,3 +2653,27 @@ input, select, textarea {
 				}
 
 	}
+
+/* Styling for the Intro section */
+#top {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 30px; /* Fixed height for the top section */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.container {
+    max-width: 1200px; /* Ensure container width fits within the banner */
+    margin: auto; /* Center the container horizontally */
+    height: 100%; /* Ensure container takes full height of the section */
+}
+
+/* Style for header text */
+header h2.alt {
+    font-size: 60px; /* Font size for the header text */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text within the container */
+}

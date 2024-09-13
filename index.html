@@ -7,7 +7,7 @@
 <html>
 
 	<head>
-		<title>My Portfolio</title>
+		<title>Ian Heung</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,7 +17,6 @@
 
 		<!-- Header -->
 		<div id="header">
-
 			<div class="top">
 
 				<!-- Logo -->
@@ -30,9 +29,9 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects
-									</a></li>
 						<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+						<li><a href="#data" id="data-link"><span class="icon solid fa-th">Data</a></li>
+						<li><a href="#research" id="research-link"><span class="icon solid fa-th">Research</a></li>
 						<li><a href="#skills" id="skills-link"><span class="icon solid fa-tasks">Skills</span></a></li>
 					</ul>
 				</nav>
@@ -47,6 +46,8 @@
 								class="label">Github</span></a></li>
 					<li><a href="mailto:ianhyheung@gmail.com" class="icon solid fa-envelope"><span
 								class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/in/ian-heung-908b0a238/" class="icon brands fa fa-linkedin"><span
+								class="label">LinkedIn</span></a></li>
 				</ul>
 
 			</div>
@@ -58,24 +59,104 @@
 
 			<!-- Intro -->
 			<section id="top" class="one dark cover">
+				<div class="container" max-height: 100px>
+					<header>
+						<h2 class="alt">Ian Heung</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- About Me -->
+			<section id="about" class="two">
 				<div class="container">
 
 					<header>
-						<h2 class="alt">Portfolio - Ian Heung</h2>
+						<h2>About Me</h2>
 					</header>
 
+					<a class="image featured"><img src="images/aboutme.jpg" alt="" /></a>
+
+					<p style="font-size: 16px; line-height: 1.5; text-align: left; ">
+						My name is Ian Heung. I am originally from Hong Kong, and am currently located in London, UK. 
+						I am currently a postgraduate student at University College London, pursuing a <strong>MSc in Scientific and Data Intensive Computing</strong>.<br>
+
+						<br>
+
+						I graduated magna cum laude from Davidson College in the US with a Bachelor of Science in Physics and a minor in Computer Science. During my time at Davidson, I actively participated in machine learning research focused on the analysis and classification of nuclear physics experimental data. <br>
+						
+						<br>
+
+						In addition to my studies, I work on various projects to further develop and apply my data and machine learning skills. Please feel free to explore my projects below.
+					</p>
 				</div>
 			</section>
 
 			<!-- Portfolio -->
-			<section id="portfolio" class="two">
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this link is correct -->
+</head>
+<body>
+    <!-- Section for Data Projects -->
+    <section id="data" class="three">
+        <div class="container">
+            <header>
+                <h2>Data Projects</h2>
+            </header>
+
+            <p>Here are some featured data analytics and ML projects. For more, please check out my GitHub.</p>
+
+            <div class="row">
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://github.com/iaheung/cyclistic_casestudy" class="image fit">
+                            <img src="images/cyclistic.png" alt="Bike Share Case Study" />
+                        </a>
+                        <header>
+                            <h3>Bike Share Case Study</h3>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://github.com/iaheung/credit_card_fraud_analysis" class="image fit">
+                            <img src="images/frauddetection.png" alt="Fraud Detection" />
+                        </a>
+                        <header>
+                            <h3>Fraud Detection on Imbalanced Datasets</h3>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://github.com/iaheung/attpc-torchsparse.git" class="image fit">
+                            <img src="images/nbaallstar.png" alt="NBA All Star Predictor" />
+                        </a>
+                        <header>
+                            <h3> Predicting NBA All Stars with Machine Learning</h3>
+                        </header>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+			<!-- Portfolio -->
+			<section id="research" class="two">
 				<div class="container">
 
 					<header>
-						<h2>Projects</h2>
+						<h2>Research Projects</h2>
 					</header>
 
-					<p>Below are some projects I have worked on.
+					<p>Below are physics and ML research projects I have worked on.
 					</p>
 	
 
@@ -92,16 +173,6 @@
 						</div>
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="https://github.com/iaheung/oist_research" class="image fit"><img
-										src="images/PIDFilters.jpg" alt="PID and Digital Filters" /></a>
-								<header>
-									<h3>PID Controller and Digital Filter Implementation
-									</h3>
-								</header>
-							</article>
-						</div>
-						<div class="col-4 col-12-mobile">
-							<article class="item">
 								<a href="https://github.com/iaheung/attpc-torchsparse.git" class="image fit"><img
 										src="images/3DSparseConv.png" alt="3D Sparse Convolution" /></a>
 								<header>
@@ -110,29 +181,22 @@
 								</header>
 							</article>
 						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a href="https://github.com/iaheung/oist_research" class="image fit"><img
+										src="images/PIDFilters.png" alt="PID and Digital Filters" /></a>
+								<header>
+									<h3>PID Controller and Digital Filter Implementation
+									</h3>
+								</header>
+							</article>
+						</div>
 					</div>
-
+					
 				</div>
 			</section>
 
-			<!-- About Me -->
-			<section id="about" class="three">
-				<div class="container">
-
-					<header>
-						<h2>About Me</h2>
-					</header>
-
-					<a class="image featured"><img src="images/aboutme.jpg" alt="" /></a>
-
-					<p>My name is Ian Heung and I am a current senior majoring in physics and minoring in computer science at Davidson College.
-						My current research is focused on implementing machine learning models for the analysis of nuclear physics experiments data.
-						I was born and raised in Hong Kong, and am now currently studying in the United States.
-						I am passionate about the intersection of machine learning and physics, as well as improving AI accessibility in underrepresented domains.
-						I love language learning, am an avid badminton player, and enjoy watching sports in my free time. 
-					</p>
-				</div>
-			</section>
+			
 
 			<!-- Contact -->
 			<section id="skills" class="four">
@@ -153,56 +217,40 @@
 									<span class="skill-text">Python</span>
 								</div>
 								<div class="grid-item">
-									<a class="image fit"><img src="images/Bash.png" alt="Bash" /></a>
+									<a class="image fit"><img src="images/sqlLogo.png" alt="SQL" /></a>
+									<span class="skill-text">SQL</span>
+								</div>
+								<div class="grid-item">
+									<a class="image fit"><img src="images/C++Logo.png" alt="C" /></a>
+									<span class="skill-text">C/C++</span>
+								</div>
+								<div class="grid-item">
+									<a class="image fit"><img src="images/bash.png" alt="Bash" /></a>
 									<span class="skill-text">Bash</span>
 								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/javaLogo.png" alt="Java" /></a>
-									<span class="skill-text">Java</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/CLogo.png" alt="C" /></a>
-									<span class="skill-text">C</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/C++Logo.png" alt="C++" /></a>
-									<span class="skill-text">C++</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/systemverilogLogo.png" alt="Verilog" /></a>
-									<span class="skill-text">Verilog</span>
-								</div>
-								
 							</div>
 						</div>
 						<div class="col-6 col-12-mobile">
 							<header>
-								<h4>Software Skills</h4>
+								<h4>Software and Packages</h4>
 							</header>
 							<div class="grid-container">
 								<div class="grid-item">
-									<a class="image fit"><img src="images/machinelearning.png" alt="Machine Learning" /></a>
+									<a class="image fit"><img src="images/jupyter.png" alt="Jupyter" /></a>
+									<span class="skill-text">Jupyter Notebook</span>
+								</div>
+								<div class="grid-item">
+									<a class="image fit"><img src="images/pandas.png" alt="Pandas" /></a>
+									<span class="skill-text">Pandas</span>
+								</div>
+								<div class="grid-item">
+									<a class="image fit"><img src="images/machinelearning.png" alt="ML" /></a>
 									<span class="skill-text">Machine Learning</span>
 								</div>
 								<div class="grid-item">
-									<a class="image fit"><img src="images/LinuxLogo.jpg" alt="Linux" /></a>
-									<span class="skill-text">Linux</span>
+									<a class="image fit"><img src="images/tableau.png" alt="Tableau" /></a>
+									<span class="skill-text">Tableau</span>
 								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/vivadoLogo.png" alt="Vivado" /></a>
-									<span class="skill-text">Vivado</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/ExcelLogo.png" alt="Excel" /></a>
-									<span class="skill-text">Excel</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/MatlabLogo.png" alt="MATLAB" /></a>
-									<span class="skill-text">MATLAB</span>
-								</div>
-								<div class="grid-item">
-									<a class="image fit"><img src="images/github.png" alt="GitHub" /></a>
-									<span class="skill-text">GitHub</span>
 								</div>
 							</div>
 						</div>
